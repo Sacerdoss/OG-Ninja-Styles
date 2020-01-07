@@ -13,55 +13,44 @@
         width: 100%;
         max-width: 100%;
     }
-    /* Element | https://ogame.hebeler.club/bots/1 */
     .botpage .container-fluid>div:nth-child(1) {
         max-width: 100%;
         margin-left: 0;
         margin-right: 0;
     }
-    /* Element | https://ogame.hebeler.club/bots/1 */
     .botpage .col-4 {
         padding-left: 0;
         padding-right: 0;
     }
-    /* Element | https://ogame.hebeler.club/bots/1 */
     .botpage .col-8 {
         padding-left: 0;
         padding-right: 0;
     }
-    /* Element | https://ogame.hebeler.club/bots/1 */
     .botpage .col-8>div:nth-child(1) {
         margin-left: 0;
         margin-right: 0;
     }
-    /* Element | https://ogame.hebeler.club/bots/1 */
     .botpage div.col-6:nth-child(1) {
         padding-left: 0;
         padding-right: 0;
     }
-    /* bootstrap.min.css | https://ogame.hebeler.club/public/css/bootstrap.min.css */
     .botpage .card {
         /* word-wrap: break-word; */
         word-wrap: anywhere;
     }
-    /* Element | https://ogame.hebeler.club/bots/1 */
     .botpage #repatriateNow>button {
         width: 100%!important;
     }
-    /* Element | https://ogame.hebeler.club/bots/1 */
     .botpage form.mb-3:nth-child(2)>button {
         width: 100%!important;
     }
-    /* Element | https://ogame.hebeler.club/bots/1 */
     .botpage button.btn:nth-child(3) {
         width: 100%!important;
     }
-    /* Element | https://ogame.hebeler.club/bots/1 */
     .botpage div.col-6:nth-child(2) {
         padding-right: 0;
         padding-left: 0;
     }
-    /* Element | https://ogame.hebeler.club/bots/1 */
     .botpage .col-8 {
         margin-top: 1rem;
     }
