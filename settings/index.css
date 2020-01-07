@@ -1,0 +1,9 @@
+@media(max-width: 576px) {
+    #settingspage .row {
+        flex-direction: column;
+    }
+    #settingspage .row>div {
+        width: 100%;
+        max-width: 100%;
+    }
+}

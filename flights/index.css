@@ -1,0 +1,27 @@
+@media(max-width: 576px) {
+    #flightspage .row {
+        flex-direction: column;
+    }
+    #flightspage .row>div {
+        width: 100%;
+        max-width: 100%;
+    }
+    #flightspage .table-wrap {
+        overflow-x: scroll;
+    }
+    #flightspage .mr-4 {
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0 !important;
+    }
+    #flightspage .fa.fa-caret-up, .fa.fa-caret-down {
+        font-size: 1.5em;
+    }
+    #flightspage .mr-1, .mx-1 {
+        margin-right: 0 !important;
+        margin-top: 8px;
+    }
+    #flightspage div.table-wrap:nth-child(1) {
+        overflow-x: initial;
+    }
+}

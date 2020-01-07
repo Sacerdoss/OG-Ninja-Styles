@@ -1,0 +1,12 @@
+@media(max-width: 576px) {
+    #farmerpage .row {
+        flex-direction: column;
+    }
+    #farmerpage .row>div {
+        width: 100%;
+        max-width: 100%;
+    }
+    #farmerpage .table-wrap {
+        overflow-x: scroll;
+    }
+}

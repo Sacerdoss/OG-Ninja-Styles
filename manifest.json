@@ -1,0 +1,42 @@
+{
+    "manifest_version": 2,
+    "name": "Ogame Ninja Mobile Styles",
+    "version": "1.0",
+    "description": "Applies a Stylesheet and Javascript to Ogame Ninja to make it usable an phones.",
+    "permissions": [
+        "tabs"
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "nja-mobile-styles@sacerdos.de"
+        }
+    },
+    "icons": {
+        "48": "icons/icon-48.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "css": [
+                "startpage/index.css",
+                "bots/index.css",
+                "brain/index.css",
+                "defender/index.css",
+                "scanner/index.css",
+                "hunter/index.css",
+                "farmer/index.css",
+                "farmer/detail.css",
+                "activities/index.css",
+                "logs/index.css",
+                "settings/index.css",
+                "flights/index.css"
+            ],
+            "js": [
+                "jquery-3.4.1.min.js",
+                "inject.js"
+            ]
+        }
+    ]
+}

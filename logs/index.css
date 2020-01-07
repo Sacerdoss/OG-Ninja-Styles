@@ -1,0 +1,9 @@
+@media(max-width: 576px) {
+    #logspage .row {
+        flex-direction: column;
+    }
+    #logspage .row>div {
+        width: 100%;
+        max-width: 100%;
+    }
+}

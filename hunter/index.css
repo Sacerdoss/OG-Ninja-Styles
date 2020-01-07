@@ -1,0 +1,12 @@
+@media(max-width: 576px) {
+    #hunterpage .row {
+        flex-direction: column;
+    }
+    #hunterpage .row>div {
+        width: 100%;
+        max-width: 100%;
+    }
+    #hunterpage .table-wrap {
+        overflow-x: scroll;
+    }
+}

@@ -1,0 +1,8 @@
+/* Element | https://ogame.hebeler.club/ */
+
+@media(max-width: 576px) {
+    body#startpage #card_1 {
+        width: 100%;
+        max-width: 100%;
+    }
+}

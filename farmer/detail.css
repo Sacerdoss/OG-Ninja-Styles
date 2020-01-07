@@ -1,0 +1,15 @@
+@media(max-width: 576px) {
+    #farmerdetailpage .row {
+        flex-direction: column;
+    }
+    #farmerdetailpage .row>div {
+        width: 100%;
+        max-width: 100%;
+    }
+    #farmerdetailpage .table-wrap {
+        overflow-x: scroll;
+    }
+    #farmerdetailpage .col-8 {
+        margin-top: 16px;
+    }
+}

@@ -1,0 +1,12 @@
+@media(max-width: 576px) {
+    #activitiespage .row {
+        flex-direction: column;
+    }
+    #activitiespage .row>div {
+        width: 100%;
+        max-width: 100%;
+    }
+    #activitiespage #chart, #activitiespage .table-wrap {
+        overflow-x: scroll;
+    }
+}

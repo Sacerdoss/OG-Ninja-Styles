@@ -1,0 +1,16 @@
+@media(max-width: 576px) {
+    #defenderpage .row {
+        flex-direction: column;
+    }
+    #defenderpage .row>div {
+        width: 100%;
+        max-width: 100%;
+    }
+    #defenderpage div.float-left:nth-child(1) {
+        width: 100%;
+        margin-top: 16px;
+    }
+    #defenderpage div.card:nth-child(2) {
+        width: 100%;
+    }
+}
