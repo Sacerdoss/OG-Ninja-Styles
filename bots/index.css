@@ -45,23 +45,24 @@
         word-wrap: anywhere;
     }
     /* Element | https://ogame.hebeler.club/bots/1 */
-    .botpage #repatriateNow>button:nth-child(2) {
-        /* width: 180px; */
-        width: 100%;
+    .botpage #repatriateNow>button {
+        width: 100%!important;
     }
     /* Element | https://ogame.hebeler.club/bots/1 */
-    .botpage form.mb-3:nth-child(2)>button:nth-child(2) {
-        /* width: 180px; */
-        width: 100%;
+    .botpage form.mb-3:nth-child(2)>button {
+        width: 100%!important;
     }
     /* Element | https://ogame.hebeler.club/bots/1 */
     .botpage button.btn:nth-child(3) {
-        /* width: 180px; */
-        width: 100%;
+        width: 100%!important;
     }
     /* Element | https://ogame.hebeler.club/bots/1 */
     .botpage div.col-6:nth-child(2) {
         padding-right: 0;
         padding-left: 0;
+    }
+    /* Element | https://ogame.hebeler.club/bots/1 */
+    .botpage .col-8 {
+        margin-top: 1rem;
     }
 }
