@@ -12,4 +12,10 @@
     #brainpage div.card:nth-child(2) {
         width: 100%;
     }
+    #brainpage .table-wrap {
+        overflow-x: scroll;
+    }
+    #brainpage div.card:nth-child(2) {
+        width: 100%;
+    }
 }

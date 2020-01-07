@@ -47,6 +47,7 @@ function botPage() {
 function brainPage() {
     $("body").attr("id", "brainpage");
     $("body").addClass("brainpage");
+    $("table").wrap("<div class=\"table-wrap\"></div>");
     fixBotNavigation();
 }
 
