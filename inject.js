@@ -22,6 +22,8 @@ $(document).ready(function () {
             hunterPage();
         } else if (currentUrl.match(/^\/bots\/\d+\/farmer(\?.*){0,1}$/)) {
             farmerPage();
+        } else if (currentUrl.match(/^\/bots\/\d+\/phalanx(\?.*){0,1}$/)) {
+            phalanxPage();
         } else if (currentUrl.match(/^\/bots\/\d+\/farmer\/sessions\/\d+(\?.*){0,1}$/)) {
             farmerDetailPage();
         } else if (currentUrl.match(/^\/bots\/\d+\/activities(\?.*){0,1}$/)) {
@@ -75,6 +77,12 @@ function farmerPage() {
     $("body").attr("id", "farmerpage");
     $("body").addClass("farmerpage");
     $("table").wrap("<div class=\"table-wrap\"></div>");
+    fixBotNavigation();
+}
+
+function phalanxPage() {
+    $("body").attr("id", "phalanxpage");
+    $("body").addClass("farmerpage");
     fixBotNavigation();
 }
 
