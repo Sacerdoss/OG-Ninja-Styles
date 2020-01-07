@@ -54,6 +54,7 @@ function brainPage() {
 function defenderPage() {
     $("body").attr("id", "defenderpage");
     $("body").addClass("defenderpage");
+    $("table").wrap("<div class=\"table-wrap\"></div>");
     fixBotNavigation();
 }
 
