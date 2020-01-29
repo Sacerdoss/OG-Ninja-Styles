@@ -1,7 +1,8 @@
 let njaTitle = "OGame Ninja";
 $(document).ready(function () {
     let currentUrl = document.location.href;
-    if (document.title.startsWith(njaTitle)) {
+    let descriptionMeta = $("meta[name=description]").attr("content");
+    if (descriptionMeta.startsWith(njaTitle)) {
         addViewportTag();
         if (!window.matchMedia('(max-device-width: 576px)').matches) {
             $("#logs > .data").css("overflow", "hidden");
