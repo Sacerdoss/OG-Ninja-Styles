@@ -35,6 +35,8 @@ $(document).ready(function () {
             settingsPage();
         } else if (currentUrl.match(/^\/bots\/\d+\/flights(\?.*){0,1}$/)) {
             flightsPage();
+        } else if (currentUrl.match(/^\/bots\/\d+\/browser(\?.*){0,1}$/)) {
+            browserPage();
         } else {
             console.log(currentUrl);
         }
@@ -120,6 +122,11 @@ function flightsPage() {
     $("div.table-wrap:nth-child(1) > table:nth-child(1)").attr("id", "flighttargets");
     $("#flighttargets > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(1)").html("Geschw.");
     fixBotNavigation();
+}
+
+function browserPage() {
+    $("body").attr("id", "browserpage");
+    $("body").addClass("browserpage");
 }
 
 function startPage() {
