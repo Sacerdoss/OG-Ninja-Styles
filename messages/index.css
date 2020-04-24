@@ -1,0 +1,15 @@
+@media(max-width: 576px) {
+    #messagespage .row {
+        flex-direction: column;
+    }
+    #messagespage .row>div {
+        width: 100%;
+        max-width: 100%;
+    }
+    #messagespage .table-wrap {
+        overflow-x: scroll;
+    }
+    #messagespage .col-8 {
+        margin-top: 8px;
+    }
+}

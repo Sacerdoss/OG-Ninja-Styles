@@ -33,7 +33,9 @@
                 "logs/index.css",
                 "settings/index.css",
                 "flights/index.css",
-                "browser/index.css"
+                "browser/index.css",
+                "expeditions/index.css",
+                "messages/index.css"
             ],
             "js": [
                 "jquery-3.4.1.min.js",

@@ -37,6 +37,10 @@ $(document).ready(function () {
             flightsPage();
         } else if (currentUrl.match(/^\/bots\/\d+\/browser(\?.*){0,1}$/)) {
             browserPage();
+        } else if (currentUrl.match(/^\/bots\/\d+\/expeditions(\?.*){0,1}$/)) {
+            expeditionsPage();
+        } else if (currentUrl.match(/^\/bots\/\d+\/messages(\/[^\/]+){0,1}(\?.*){0,1}$/)) {
+            messagesPage();
         } else {
             console.log(currentUrl);
         }
@@ -131,6 +135,18 @@ function browserPage() {
 
 function startPage() {
     $("body").attr("id", "startpage");
+}
+
+function expeditionsPage() {
+    $("body").attr("id", "expeditionspage");
+    $("table").wrap("<div class=\"table-wrap\"></div>");
+    fixBotNavigation();
+}
+
+function messagesPage() {
+    $("body").attr("id", "messagespage");
+    $("table").wrap("<div class=\"table-wrap\"></div>");
+    fixBotNavigation();
 }
 
 function fixBotNavigation() {

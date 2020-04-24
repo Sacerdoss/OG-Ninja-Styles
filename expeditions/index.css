@@ -1,0 +1,23 @@
+/* Element | https://ogame.hebeler.club/ */
+
+@media(max-width: 576px) {
+    #expeditionspage .row {
+        flex-direction: column;
+    }
+    #expeditionspage .row>div {
+        width: 100%;
+        max-width: 100%;
+    }
+    #expeditionspage .table-wrap {
+        overflow-x: scroll;
+    }
+    #expeditionspage .float-left {
+        max-width: 100%;
+    }
+    #expeditionspage .float-left > div:nth-child(2) {
+        padding: 8px;
+    }
+    #expeditionspage #app1 {
+        margin-top: 8px;
+    }
+}
