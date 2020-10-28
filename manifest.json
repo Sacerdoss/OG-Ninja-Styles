@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Ogame Ninja Mobile Styles",
-    "version": "1.2",
+    "version": "1.4",
     "description": "Applies a Stylesheet and Javascript to Ogame Ninja to make it usable an phones.",
     "permissions": [
         "tabs"
